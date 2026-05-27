@@ -73,13 +73,13 @@ python main.py --sc      # Supply chain only
 
 | File | Description |
 |------|-------------|
-| `dag.png` | Causal graph with node categories |
-| `mechanistic_fit.png` | Monod + Luedeking-Piret parameter fits |
-| `mechanistic_trajectories.png` | Per-reactor Titre trajectories |
-| `hybrid_predictions.png` | Parity plot + residual analysis |
-| `shap_analysis.png` | SHAP feature importance |
-| `yield_distribution.png` | Yield distribution + newsvendor cost curve |
-| `supply_chain_comparison.png` | Monte Carlo policy comparison |
+| `Figures/dag.png` | Causal graph with node categories |
+| `Figures/mechanistic_fit.png` | Monod + Luedeking-Piret parameter fits |
+| `Figures/mechanistic_trajectories.png` | Per-reactor Titre trajectories |
+| `Figures/hybrid_predictions.png` | Parity plot + residual analysis |
+| `Figures/shap_analysis.png` | SHAP feature importance |
+| `Figures/yield_distribution.png` | Yield distribution + newsvendor cost curve |
+| `Figures/supply_chain_comparison.png` | Monte Carlo policy comparison |
 
 ---
 
@@ -104,7 +104,7 @@ See [`dag_explanation.md`](dag_explanation.md) for full node and edge definition
 ├── supply_chain.py         # Layer 3: Stochastic supply chain
 ├── shap_extra.py           # Additional SHAP visualisations
 ├── dag_explanation.md      # Detailed DAG documentation with references
-└── dag.png                 # Causal graph output
+└── Figures/                # All output figures
 ```
 
 ---
