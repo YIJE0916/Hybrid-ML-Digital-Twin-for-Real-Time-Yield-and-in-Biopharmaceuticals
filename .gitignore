@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# 原始資料與輸出結果
+*.csv
+*.xlsx
+new.pdf
+FInal_Project_Group_3.pdf
+Project_Proposal_Group_3.pdf
